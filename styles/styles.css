@@ -207,9 +207,9 @@ nav .nav-logo svg {
 }
 
 .container-animation .animation-image {
-  width: 110%;
-  -webkit-transform: translate3d(-60px, 0, 0);
-          transform: translate3d(-60px, 0, 0);
+  width: 140%;
+  -webkit-transform: translate3d(-140px, 0, 0);
+          transform: translate3d(-140px, 0, 0);
 }
 
 .bg-video {
