@@ -82,3 +82,30 @@
       height: auto;
     }
 }
+
+@media screen and (max-width: $desktop) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container-animation {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+
+    .animation-image {
+      width: 75%;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .bg-video {
+    display: none;
+  }
+}
