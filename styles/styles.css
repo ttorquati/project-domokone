@@ -207,7 +207,7 @@ nav .nav-logo svg {
 }
 
 .container-animation .animation-image {
-  width: 115%;
+  width: 110%;
   -webkit-transform: translate3d(-80px, 0, 0);
           transform: translate3d(-80px, 0, 0);
 }
@@ -231,5 +231,10 @@ nav .nav-logo svg {
   left: 0;
   display: block;
   background: linear-gradient(101.47deg, #0A0C10 26.38%, rgba(10, 12, 16, 0.8) 50.07%, #0A0C10 73.17%);
+}
+
+.bg-video .video {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=styles.css.map */
