@@ -83,6 +83,10 @@
     }
 }
 
+.footer-social {
+    display: none;
+}
+
 @media screen and (max-width: $desktop) {
   .container {
     padding: 0 16px;
@@ -119,6 +123,23 @@
             span {
                 left: auto;
                 right: 0;
+            }
+        }
+    }
+
+    .footer-social {
+        display: block;
+
+        .footer-links {
+            padding: 32px 0;
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-around;
+
+            svg {
+                max-width: 32px;
+                max-height: 32px;
             }
         }
     }
