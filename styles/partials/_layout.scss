@@ -109,3 +109,17 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+    .container-info {
+        .info-title {
+            h1 {
+                font-size: 3rem;
+            }
+            span {
+                left: auto;
+                right: 0;
+            }
+        }
+    }
+}

@@ -141,6 +141,24 @@ nav .nav-logo svg {
   margin-left: 24px;
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav-logo {
+    display: none;
+  }
+  .nav-menu .nav-links li {
+    margin-left: 0;
+  }
+  .nav-social {
+    display: none;
+  }
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -268,6 +286,16 @@ nav .nav-logo svg {
   }
   .bg-video {
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-info .info-title h1 {
+    font-size: 3rem;
+  }
+  .container-info .info-title span {
+    left: auto;
+    right: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */

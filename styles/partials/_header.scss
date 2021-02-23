@@ -89,3 +89,25 @@ nav {
         margin-left: 24px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .nav-menu {
+        .nav-links {
+            li {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .nav-social {
+        display: none;
+    }
+}
